@@ -16,7 +16,7 @@
         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs - 1.81.0
         Device            :  PIC16F18446
         Driver Version    :  2.00
-*/
+ */
 
 /*
     (c) 2018 Microchip Technology Inc. and its subsidiaries. 
@@ -39,7 +39,7 @@
     CLAIMS IN ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT 
     OF FEES, IF ANY, THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS 
     SOFTWARE.
-*/
+ */
 
 #include "mcc_generated_files/mcc.h"
 #include "labs.h"
@@ -52,47 +52,57 @@ void nextLab(void);
  */
 void main(void) {
     SYSTEM_Initialize();
-    
+
     // Disable the pre-enabled interrupts of the MCC    
     INTERRUPT_TMR0InterruptDisable();
 
-    
-    while (1){
+
+    while (1) {
         checkButtonS1();
-        switch(labNumber){
-            case 1:     HelloWorld();       break;
-            case 2:     Blink();            break;
-            case 3:     Rotate();           break;
-            case 4:     ADC();              break;
-            case 5:     VSR();              break;
-            case 6:     PWM();              break;
-            case 7:     Timer1();           break;
-            case 8:     Interrupt();        break;
-            case 9:     SleepWakeUp();      break;
-            case 10:    EEPROM();           break;
+        switch (labNumber) {
+            case 1: HelloWorld();
+                break;
+            case 2: Blink();
+                break;
+            case 3: Rotate();
+                break;
+            case 4: ADC();
+                break;
+            case 5: VSR();
+                break;
+            case 6: PWM();
+                break;
+            case 7: Timer1();
+                break;
+            case 8: Interrupt();
+                break;
+            case 9: SleepWakeUp();
+                break;
+            case 10: EEPROM();
+                break;
         }
-        
+
         if (switchEvent) {
             nextLab();
-        }                                                   
+        }
     }
 }
 
-void checkButtonS1(void){
-    if(btnState == NOT_PRESSED){
-        if(SWITCH_S1_PORT == LOW){  
+void checkButtonS1(void) {
+    if (btnState == NOT_PRESSED) {
+        if (SWITCH_S1_PORT == LOW) {
             __delay_ms(100);
             btnState = PRESSED;
         }
-    }else if(SWITCH_S1_PORT == HIGH){
-            btnState = NOT_PRESSED;   
-            switchEvent = 1;                                                   
+    } else if (SWITCH_S1_PORT == HIGH) {
+        btnState = NOT_PRESSED;
+        switchEvent = 1;
     }
 }
 
 void nextLab(void) {
-    switchEvent = 0; 
-    labNumber++;                                                        
+    switchEvent = 0;
+    labNumber++;
 
     if (labNumber > 10) {
         labNumber = 1;
@@ -100,4 +110,4 @@ void nextLab(void) {
 }
 /**
  End of File
-*/
+ */
