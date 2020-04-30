@@ -1,7 +1,7 @@
 pipeline {
     agent {
         kubernetes {
-            label 'pic16f18446-curiosity-hpc-demo-code'
+            label 'pic16f18446-curiosity-lpc-demo-code'
 			defaultContainer 'xc8-mplabx'
             yamlFile 'cloudprovider.yml'
         }
@@ -14,8 +14,8 @@ pipeline {
     }
 	
 	environment {		
-		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic16f18446-curiosity-hpc-demo-code.git'
-		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic16f18446-curiosity-hpc-demo-code.git'
+		GITHUB_URL ='https://github.com/microchip-pic-avr-examples/pic16f18446-curiosity-lpc-demo-code.git'
+		BITBUCKET_URL = 'https://bitbucket.microchip.com/scm/ebe/pic16f18446-curiosity-lpc-demo-code.git'
 		DEPLOY_TOOL_URL = 'https://bitbucket.microchip.com/scm/citd/tool-github-deploy.git'
 		DEPLOY_SCRIPT_DIR = 'tool-github-deploy'
 		DEPLOY_SCRIPT_FILE = 'deploy-source-as-is.sh'
