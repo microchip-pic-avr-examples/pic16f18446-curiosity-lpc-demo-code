@@ -8,15 +8,15 @@ The following labs in this demo code project are designed for Microchip’s Curi
 ![Curiosity Low Pin Count (LPC) Development Board](images/LPC-board.PNG)
 
 ## Software Used
-     - MPLAB® X IDE 5.35 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC16F1xxxx Series Device Support (1.3.117) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
+  - MPLAB® X IDE 5.35 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+  - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+  - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+  - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+  - Microchip PIC16F1xxxx Series Device Support (1.3.117) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/)
 
 ## Hardware Used
-     - [(PIC16F18446 Microcontroller)](https://www.microchip.com/wwwproducts/en/PIC16F18446)
-     - [(Curiosity Low Pin Count (LPC) Development Board)](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164137)     
+  - [PIC16F18446 Microcontroller](https://www.microchip.com/wwwproducts/en/PIC16F18446)
+  - [Curiosity Low Pin Count (LPC) Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164137)  
 
 ## LABS
 The labs in this project are presented in the same order as they appear on the programmed labs. You can progress through each of the labs by simply pressing the S1 button on the board.
