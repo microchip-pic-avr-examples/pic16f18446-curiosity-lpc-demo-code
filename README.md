@@ -16,7 +16,7 @@ The following labs in this demo code project are designed for Microchip’s Curi
 
 ## Hardware Used
   - [PIC16F18446 Microcontroller](https://www.microchip.com/wwwproducts/en/PIC16F18446)
-  - [Curiosity Low Pin Count (LPC) Development Board](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164137)  
+  - [Curiosity Low Pin Count (LPC) Development Board Rev 4](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/DM164137)  
 
 ## LABS
 The labs in this project are presented in the same order as they appear on the programmed labs. You can progress through each of the labs by simply pressing the S1 button on the board.
