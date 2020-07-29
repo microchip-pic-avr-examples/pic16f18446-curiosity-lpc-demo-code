@@ -7,7 +7,7 @@
         "version": "1.0.1",
         "displayName": "PIC16F18446 Low-Pin-Count Curiosity Board Demo Code",
         "projectName": "pic16f18446-curiosity-lpc-demo-code",
-        "shortDescription": "Demo code for LPC board for PIC16F184 devices",
+        "shortDescription": "Demo code for LPC board for PIC16F18446 devices",
         "ide": {
             "name": "MPLABX",
             "semverRange": ">=5.40.0"
