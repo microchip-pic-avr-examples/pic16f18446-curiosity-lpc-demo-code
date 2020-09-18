@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-curiosity-lpc-demo-code",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "PIC16F18446 Low-Pin-Count Curiosity Board Demo Code",
         "projectName": "pic16f18446-curiosity-lpc-demo-code",
         "shortDescription": "Demo code for LPC board for PIC16F18446 devices",
@@ -46,13 +46,13 @@
                 "Peripherals", "UART"
              ],
              [
-                "Peripherals", "TMR1"
+                "Peripherals", "Timer"
              ],
              [
                  "Peripherals", "Interrupts"
              ],
              [
-                 "Peripherals", "WWDT"
+                 "Peripherals", "Watchdog"
              ],
              [
                  "Peripherals", "Sleep"
@@ -68,7 +68,8 @@
             "Demo Code",
             "Getting Started",
             "PIC16",
-            "PIC16F184"			
+            "PIC16F184"
+            "Curiosity Board"			
         ],
 		"additionalData": {
 			"longDescription": {
