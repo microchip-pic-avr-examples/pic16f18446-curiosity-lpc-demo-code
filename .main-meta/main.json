@@ -4,20 +4,20 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-curiosity-lpc-demo-code",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "displayName": "PIC16F18446 Low-Pin-Count Curiosity Board Demo Code",
         "projectName": "pic16f18446-curiosity-lpc-demo-code",
         "shortDescription": "Demo code for LPC board for PIC16F18446 devices",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.40.0"
         },
         "compiler": [
-			{
-				"name": "XC8",
-				"semverRange": "^2.20.0"
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.20.0"
+            }
+        ],
         "dfp": {
             "name": "PIC16F1xxxx_DFP",
             "semverRange": "^1.4.119"
@@ -39,45 +39,55 @@
         "author": "Microchip",
         "subcategories": [
             "MCC",
-             [
-                "Peripherals", "ADCC"
-             ],
-             [
-                "Peripherals", "UART"
-             ],
-             [
-                "Peripherals", "Timer"
-             ],
-             [
-                 "Peripherals", "Interrupts"
-             ],
-             [
-                 "Peripherals", "Watchdog"
-             ],
-             [
-                 "Peripherals", "Sleep"
-             ]                 			
+            [
+                "Peripherals",
+                "ADCC"
+            ],
+            [
+                "Peripherals",
+                "UART"
+            ],
+            [
+                "Peripherals",
+                "Timer"
+            ],
+            [
+                "Peripherals",
+                "Interrupts"
+            ],
+            [
+                "Peripherals",
+                "Watchdog"
+            ],
+            [
+                "Peripherals",
+                "Sleep"
+            ]
         ],
         "peripherals": [
-            "ADCC","UART","WWDT","TMR1","PWM"
+            "ADCC",
+            "UART",
+            "WWDT",
+            "TMR1",
+            "PWM"
         ],
         "keywords": [
             "Demo Code",
             "Getting Started",
             "PIC16",
             "PIC16F184",
-            "Curiosity Board"			
+            "Curiosity Board"
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }
